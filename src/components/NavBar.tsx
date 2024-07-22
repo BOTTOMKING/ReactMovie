@@ -23,7 +23,7 @@ const Nav = styled.nav`
 const Navbar: React.FC = () => {
   return (
     <Nav>
-      <NavLink to="/" end>
+      <NavLink to="/ReactMovie" end>
         Home
       </NavLink>
       <NavLink to="/coming-soon">

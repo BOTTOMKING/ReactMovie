@@ -11,7 +11,7 @@ export const router = createBrowserRouter(
           path: '/',
           element: <App />,
           children: [
-            { path: '/', element: <Home /> },
+            { path: 'ReactMovie/', element: <Home /> },
             { path: 'coming-soon', element: <ComingSoon /> },
             { path: 'now-playing', element: <NowPlaying /> },
           ],
