@@ -11,7 +11,7 @@ export const router = createBrowserRouter(
           path: '/',
           element: <App />,
           children: [
-            { path: `${process.env.PUBLIC_URL}/`, element: <Home /> },
+            { path: '/', element: <Home /> },
             { path: 'coming-soon', element: <ComingSoon /> },
             { path: 'now-playing', element: <NowPlaying /> },
           ],
